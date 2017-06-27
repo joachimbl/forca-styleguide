@@ -1,0 +1,17 @@
+body {
+	background-size: 300px;
+	font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 800;
+	color: #000;
+}
+
+.bg-pattern-primary, .bg-pattern-secondary, .bg-pattern-tertiary,
+.bg-gradient-primary, .bg-gradient-secondary, .bg-gradient-tertiary {
+	display: none;
+}
+.bg-tertiary {
+	color: #000;
+}

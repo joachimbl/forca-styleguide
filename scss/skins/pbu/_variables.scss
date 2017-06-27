@@ -1,0 +1,21 @@
+$brand-primary: #007aa4;
+$brand-secondary: #a1aa03;
+$brand-tertiary: #cfd238;
+
+$gradient-primary: linear-gradient(160deg, #007aa4 0%, #005583 50%, #005583 75%, #007aa4 100%);
+$gradient-secondary: linear-gradient(160deg, #a1aa03 0%, #7f8a00 50%, #7f8a00 75%, #a1aa03 100%);
+$gradient-tertiary: linear-gradient(160deg, #cfd238 0%, #babd1c 50%, #babd1c 75%, #cfd238 100%);
+
+$pattern-primary: #f3f3f3 url("../././images/pbu/bg/crackleback-pbu.jpg") 0 0 repeat; // lys grå som bruges til main bg
+$pattern-secondary: #cedbda url("../././images/pbu/bg/top-campaign-default-background-pbu.gif") 0 0 repeat; // lys grøn som bruges til rotator bg
+$pattern-tertiary: url("../././images/pbu/bgnav-floater-back-pbu.png") repeat; // Som bruges nav og selvbetjenings bg
+
+$logo: url("../././images/pbu/bg/pbu-logo.svg");
+
+$body-bg: $pattern-primary;
+
+$header-font-family: Lato;
+$body-font-family: Lato;
+
+
+$global-radius: 10px;

@@ -1,0 +1,19 @@
+$brand-primary: #96004b;
+$brand-secondary: #d80063;
+$brand-tertiary: #00546c;
+
+$gradient-primary: linear-gradient(160deg, #a4005e 0%, #83003b 50%, #83003b 75%, #a4005e 100%);
+$gradient-secondary: linear-gradient(160deg, #d80063 0%, #c7003f 50%, #c7003f 75%, #d80063 100%);
+$gradient-tertiary: linear-gradient(160deg, #00546c 0%, #003348 50%, #003348 75%, #00546c 100%);
+
+$pattern-primary: #f3f3f3 url("../././images/pka/bg/crackleback-pka.jpg") 0 0 repeat; // lys grå som bruges til main bg
+$pattern-secondary: #cedbda url("../././images/pka/bg/top-campaign-default-background-pka.gif") 0 0 repeat; // lys grøn som bruges til rotator bg
+$pattern-tertiary: url("../././images/pka/bgnav-floater-back-pka.png") repeat; // Som bruges nav og selvbetjenings bg
+
+$logo: url("../././images/pka/bg/pka-logo.svg");
+
+$body-bg: $pattern-primary;
+
+$header-font-family: Georgia;
+
+$global-radius: 10px;

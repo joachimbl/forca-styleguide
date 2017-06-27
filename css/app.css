@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i");
+/* line 1, ../scss/base/_base.scss */
+h1, h2 {
+  font-weight: 300;
+}
+
+/* line 5, ../scss/base/_base.scss */
+.skin-toggle {
+  position: absolute;
+  top: 0;
+  left: 30px;
+}
+/* line 12, ../scss/base/_base.scss */
+.skin-toggle ul {
+  list-style: none;
+  margin: 10px 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+/* line 17, ../scss/base/_base.scss */
+.skin-toggle ul li {
+  padding: 5px 30px;
+  border-bottom: #eee 1px solid;
+  background: #fff;
+}
+
+/* line 27, ../scss/base/_base.scss */
+.logo {
+  background-image: "/static/img/logos/forca-logo-white.svg";
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  width: 120px;
+  height: 40px;
+  padding: 0;
+  margin: 50px 0 40px;
+  position: relative;
+  font-size: 1em;
+}
+
+/* line 41, ../scss/base/_base.scss */
+.bg-primary, .bg-secondary, .bg-tertiary,
+.bg-gradient-primary, .bg-gradient-secondary, .bg-gradient-tertiary {
+  color: #fff;
+}
+
+/* line 46, ../scss/base/_base.scss */
+.bg-primary {
+  background: blue;
+}
+
+/* line 50, ../scss/base/_base.scss */
+.bg-secondary {
+  background: yellow;
+}
+
+/* line 54, ../scss/base/_base.scss */
+.bg-tertiary {
+  background: pink;
+}
+
+/* line 58, ../scss/base/_base.scss */
+.bg-gradient-primary {
+  background: blue;
+}
+
+/* line 62, ../scss/base/_base.scss */
+.bg-gradient-secondary {
+  background: yellow;
+}
+
+/* line 66, ../scss/base/_base.scss */
+.bg-gradient-tertiary {
+  background: pink;
+}
+
+/* line 70, ../scss/base/_base.scss */
+.bg-pattern-primary {
+  background: #cedbda url("../././images/lp/bg/top-campaign-default-background-lp.gif") 0 0 repeat;
+}
+
+/* line 74, ../scss/base/_base.scss */
+.bg-pattern-secondary {
+  background: #cedbda url("../././images/lp/bg/top-campaign-default-background-lp.gif") 0 0 repeat;
+}
+
+/* line 78, ../scss/base/_base.scss */
+.bg-pattern-tertiary {
+  background: #cedbda url("../././images/lp/bg/top-campaign-default-background-lp.gif") 0 0 repeat;
+}

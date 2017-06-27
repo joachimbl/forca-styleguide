@@ -1,0 +1,80 @@
+h1,h2 {
+    font-weight: 300;
+}
+
+.skin-toggle {
+	position: absolute;
+	top: 0;
+	left: 30px;
+	
+
+
+	ul {
+		list-style: none;
+		margin: 10px 0;
+		box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+		li {
+			padding: 5px 30px;
+			border-bottom: #eee 1px solid;
+			background: #fff;
+
+		}
+	}
+
+}
+
+.logo {
+	background-image: $logo;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 120px;
+    height: 40px;
+	padding: 0;
+    margin: 50px 0 40px;
+    position: relative;
+    font-size: 1em;
+}
+
+.bg-primary, .bg-secondary, .bg-tertiary,
+.bg-gradient-primary, .bg-gradient-secondary, .bg-gradient-tertiary {
+	color: #fff;
+}
+
+.bg-primary {
+	background: $brand-primary;
+}
+
+.bg-secondary {
+	background: $brand-secondary;
+}
+
+.bg-tertiary {
+	background: $brand-tertiary;
+}
+
+.bg-gradient-primary {
+	background: $gradient-primary;
+}
+
+.bg-gradient-secondary {
+	background: $gradient-secondary;
+}
+
+.bg-gradient-tertiary {
+	background: $gradient-tertiary;
+}
+
+.bg-pattern-primary {
+	background: $pattern-primary;
+}
+
+.bg-pattern-secondary {
+	background: $pattern-secondary;
+}
+
+.bg-pattern-tertiary {
+	background: $pattern-tertiary;
+}

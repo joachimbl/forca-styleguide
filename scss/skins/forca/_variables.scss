@@ -1,0 +1,20 @@
+$brand-primary: #276066;
+$brand-secondary: #e6de77;
+$brand-tertiary: #eee;
+
+$gradient-primary: linear-gradient(160deg, #1e99a2 0%, #0d7781 50%, #0d7781 75%, #1e99a2 100%);
+$gradient-secondary: linear-gradient(160deg, #af0391 0%, #8f006d 50%, #8f006d 75%, #af0391 100%);
+$gradient-tertiary: linear-gradient(160deg, #660e5d 0%, #42063a 50%, #42063a 75%, #660e5d 100%);
+
+$pattern-primary: "../././images/forca/bg/forca-5element-bg.svg"; // lys grå som bruges til main bg
+$pattern-secondary: #cedbda url("../././images/lp/bg/top-campaign-default-background-lp.gif") 0 0 repeat; // lys grøn som bruges til rotator bg
+$pattern-tertiary: url("../././img/lp/bgnav-floater-back-lp.png") repeat; // Som bruges nav og selvbetjenings bg
+
+$logo: url("../././images/forca/bg/forca-logo.svg");
+
+$header-font-family: raleway;
+$body-font-family: raleway;
+
+$body-bg: #eee url($pattern-primary) 100% 0 no-repeat;
+
+$global-radius: 10px;
